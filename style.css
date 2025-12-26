@@ -149,6 +149,11 @@ a:hover {
         padding: 0 0% 0 0%;
     }
 
+    .socials {
+        width: 25px; 
+        padding-top: 25px;
+    }
+
     main {
         font-size: 15px;
     }
