@@ -123,6 +123,11 @@ a:hover {
     text-decoration-thickness: 4px;
 }
 
+::selection {
+    background-color: #bf4342;
+    color: #f0ead2;
+}
+
 /* zines.html */
 .zine-library {
     text-align: center;
