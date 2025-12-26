@@ -1,0 +1,180 @@
+body {
+    font-family: "Besley", serif;
+    background: #f5efb4; 
+    background: #f9dc5c;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -1px;
+    padding-left: 20px;
+}
+
+.title {
+    width: 210px;
+    padding-top: 10px; 
+    padding-left: 100px;
+}
+
+.nav {
+    font-family: "Besley", serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.socials {
+    width: 30px;
+    padding: 20px
+}
+
+h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    line-height: 60px;
+    font-size: 60px;
+    padding: 0% 0% 0% 0%;
+    letter-spacing: -1.6px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.join {
+    display: block;
+    text-align: center;
+}
+
+#join-1 {
+    margin-top: -60px;
+}
+
+#join-2 {
+    margin-top: -60px;
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* about.html */
+.zine-description {
+    text-align: center;
+    line-height: 65px;
+    font-size: 60px;
+    padding: 0% 10% 0% 10%;
+    letter-spacing: -1.6px;
+}
+
+/* index.html */
+#zine-club {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+#magic {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+#receive {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+#make {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+/* zines.html */
+.zine-library {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+#zine-bundle {
+    margin-top: -100px;
+}
+
+@media (max-width: 1200px) {
+    .description {
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0 0% 0 0%;
+    }
+}
+
+@media (max-width: 800px) {
+    .description {
+        font-size: 35px;
+        line-height: 38px;
+        padding: 0 0% 0 0%;
+    }
+
+    main {
+        font-size: 15px;
+    }
+
+    .nav {
+        font-size: 14px;
+        display: block;
+        text-align: right;
+        line-height: 10px;
+    }
+
+    .title {
+        padding-left: 0px;
+    }
+
+    #join-1 {
+        width: 250px;
+        margin-top: -40px;
+    }
+    #join-2 {
+        width: 250px;
+        margin-top: -40px;
+    }
+
+    .zine-description {
+        font-size: 40px;
+        line-height: 43px;
+    }
+}
